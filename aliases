@@ -1,0 +1,11 @@
+alias lh="ls -lt | head" # just see the recently changed ones
+alias profile="vim ~/.zshrc"
+alias gs="git status"
+alias src="source ~/.zshrc"
+alias sql="git add **/*.sql; git commit -m 'sql'" # for quickly committing updated sql files
+alias schema:"git add -p db/schema.rb"
+alias ok="git add .; git commit" # takes you straight to the commit message
+alias pb="gs | cat | grep -e db -e modified | pbcopy" # for opening the migration file (subl cmd+v after this command)
+alias gco="git checkout"
+alias gap="git add -p" # careful adds
+alias progress="git add .; git commit -m 'progress'"  # for when you have nothing more to say
